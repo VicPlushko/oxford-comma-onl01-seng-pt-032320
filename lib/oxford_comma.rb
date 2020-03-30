@@ -4,13 +4,13 @@ def oxford_comma(array)
   elsif (array.size == 2)
     return "#{array[0]} and #{array[1]}"
   end
-  new_string = ""
+  new_array = []
   array.each_with_index do |item, index|
     if (index == array.size - 1)
-      new_string << "and #{item}"
+      new_array << "and #{item}"
     else
-      new_string << "#{item}"
+      new_array << "#{item}"
 end
 end
-   return new_string.join(", ")
+   return new_array.join(", ")
 end
