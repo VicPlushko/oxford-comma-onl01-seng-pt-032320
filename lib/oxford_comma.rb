@@ -1,6 +1,6 @@
 def oxford_comma(array)
   new_array = []
-  array.each do |item, index|
+  array.each_with_index do |item, index|
     if (index == 0)
       new_array << item
     elsif (index == )
