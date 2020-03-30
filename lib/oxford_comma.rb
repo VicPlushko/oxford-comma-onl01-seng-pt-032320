@@ -4,7 +4,7 @@ def oxford_comma(array)
     if (index == 0)
       new_array << "#{item}"
       puts new_array
-    elsif (index == array.length -1)
+    elsif (index == array.size -1)
       new_array << "and #{item}"
     else
       new_array << "#{item}"
