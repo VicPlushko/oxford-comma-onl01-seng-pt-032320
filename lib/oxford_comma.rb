@@ -3,6 +3,6 @@ def oxford_comma(array)
   array.each do |item, index|
     if (index == 0)
       new_array << item
-    elsif ()
+    elsif (index == )
     
 end
