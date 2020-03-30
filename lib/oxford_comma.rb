@@ -4,6 +4,6 @@ def oxford_comma(array)
     if (index == 0)
       new_array << item
     elsif (index == array.size -1)
-      new array << item
+      new array << "and "
     
 end
