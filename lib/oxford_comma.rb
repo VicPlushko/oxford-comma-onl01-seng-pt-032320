@@ -3,7 +3,10 @@ def oxford_comma(array)
   array.each_with_index do |item, index|
     if (index == 0)
       new_array << "#{item}"
+      puts new_array
     elsif (index == array.size -1)
-      new_array << " and #{item} "
+      new_array << "and #{item}"
+      
+    
     
 end
