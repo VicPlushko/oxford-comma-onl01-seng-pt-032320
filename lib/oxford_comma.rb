@@ -9,5 +9,5 @@ def oxford_comma(array)
     else
       new_array << "#{item}"
 end
-    return new_array.join(", ")
+   eturn new_array.join(", ") r
 end
