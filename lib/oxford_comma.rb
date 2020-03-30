@@ -6,7 +6,7 @@ def oxford_comma(array)
       puts new_array
     elsif (index == array.size -1)
       new_array << "and #{item}"
-      
-    
-    
+    else
+      new_array << "#{item}"
+    return new_array
 end
